@@ -1,0 +1,19 @@
+{
+    "name": "mattrad/mattrad-primary-categories",
+    "description": "Assign primary categories to posts and custom post types.",
+    "keywords": ["wordpress", "plugin"],
+    "homepage": "https://mattrad.uk",
+    "license": "GPL2",
+    "authors": [
+      {
+        "name": "Matt Radford",
+        "email": "matt@mattrad.uk",
+        "homepage": "https://mattrad.uk"
+      }
+    ],
+    "type": "wordpress-plugin",
+    "require": {
+      "php": ">=7.3",
+      "composer/installers": "v1.0.6"
+    }
+  }
