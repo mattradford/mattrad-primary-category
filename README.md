@@ -1,3 +1,5 @@
+![Screenshot of Mattrad Primary Category plugin on a post edit screen](https://user-images.githubusercontent.com/2804540/130497404-17e4cc75-6a83-4c75-aa1f-a4a94e0ff907.png)
+
 # Mattrad Primary Categories
 This is a WordPress plugin to assign primary categories to posts and custom post types, for the default _category_ taxonomy only.
 
