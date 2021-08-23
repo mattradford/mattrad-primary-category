@@ -34,11 +34,11 @@ Both Classic Editor and Block Editor are supported.
 `[mr-primary-category]` accepts two options:
 
 * `link`
- - This defaults to `true` and outputs the post's Primary Category as a link to the Category Archive.
- - Use `link="false"` if you just want the name of the Primary Category to show.
+  * This defaults to `true` and outputs the post's Primary Category as a link to the Category Archive.
+  * Use `link="false"` if you just want the name of the Primary Category to show.
 * `text`
- - This defaults to `Category: ` and is prepended to the post's Primary Category..
- - Use `text=""` to remove or `text="Your text here "`.
+ * This defaults to `Category: ` and is prepended to the post's Primary Category.
+ * Use `text=""` to remove or `text="Your text here "`.
 
 ## To-Do
 
