@@ -5,9 +5,9 @@ This is a WordPress plugin to assign primary categories to posts and custom post
 
 Assigned Primary Categories are shown on the WordPress Dashboard, in the post and custom post type indices, via an admin column.
 
-Show a post's Primary Category with the shortcode `[mr-primary-category]`.
-Get posts with a specified Primary Category using the function `mattrad_get_posts_in_primary_category()`.
-Or for the latest 10 posts with a specified Primary Category use the speedy function `mattrad_get_latest_posts_in_primary_category()`.
+* Show a post's Primary Category with the shortcode `[mr-primary-category]`.
+* Get posts with a specified Primary Category using the function `mattrad_get_posts_in_primary_category()`.
+* Or for the latest 10 posts with a specified Primary Category use the speedy function `mattrad_get_latest_posts_in_primary_category()`.
 
 ## Testing
 
@@ -50,7 +50,7 @@ Or you may install via [Composer](https://getcomposer.org/).
 * `$args`
   * This allows the use of [WP_Query parameters](https://developer.wordpress.org/reference/classes/wp_query/#parameters).
 
-`mattrad_get_latest_posts_in_primary_category()` accepts two parameters:
+`mattrad_get_latest_posts_in_primary_category()` accepts one parameter:
 
 * `$term`
   * This should be a valid Primary Category term name.
@@ -75,4 +75,4 @@ Or you may install via [Composer](https://getcomposer.org/).
 * Activation and Deactivation functions
 * Support for custom taxonomies
 * Possible: Re-factor to store Primary Categories by ID rather than name
-* Possible: Primary Category Archives (could use _pre_get_post_ to alter existing archives)
+* Possible: Primary Category Archives (could use _pre_get_posts_ to alter existing archives)
