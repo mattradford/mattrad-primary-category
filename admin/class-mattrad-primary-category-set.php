@@ -181,6 +181,5 @@ class Mattrad_Primary_Category_Set {
             }, 10, 2);
         }
     }
-
 }
 new Mattrad_Primary_Category_Set();

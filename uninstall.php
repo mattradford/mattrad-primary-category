@@ -2,7 +2,7 @@
 /**
  * Mattrad Primary Category Uninstall.
  *
- * These functions will remove database entries for Mattrad Primary Category.
+ * This file will remove database entries for Mattrad Primary Category.
  *
  * @category Plugin
  * @package  mattrad-primary-category

@@ -86,7 +86,6 @@ class Mattrad_Primary_Category {
         require_once( MPC_PLUGIN_DIR . '/includes/helpers.php' );
 
         // Public facing functions.
-        require_once( MPC_PLUGIN_DIR . '/public/class-mattrad-primary-category-query.php' );
         require_once( MPC_PLUGIN_DIR . '/public/mattrad-primary-category-functions.php' );
 
         // WP Admin only functions.
@@ -94,5 +93,4 @@ class Mattrad_Primary_Category {
             require_once( MPC_PLUGIN_DIR . '/admin/class-mattrad-primary-category-set.php' );
 		}
     }
-
 }
