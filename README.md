@@ -55,7 +55,7 @@ Or you may install via [Composer](https://getcomposer.org/).
 * `$term`
   * This should be a valid Primary Category term name.
 
-## Shortcode options
+## Shortcodes
 
 `[mr-primary-category]` accepts two options:
 
